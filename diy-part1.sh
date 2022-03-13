@@ -23,4 +23,4 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
 git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git
 cd lean
 rm -rf luci-theme-argon  
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git luci-theme-argon-18.06
