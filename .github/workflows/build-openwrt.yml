@@ -12,9 +12,9 @@ name: Build OpenWrt
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
   repository_dispatch:
   workflow_dispatch:
     inputs:
