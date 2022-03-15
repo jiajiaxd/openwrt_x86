@@ -4,9 +4,9 @@
 内置ZeroTier、PassWall、ShadowSocksR、AdGuardHome、迅雷快鸟、UU加速器、FRP、解锁网易云灰色（新版）、AdBlock、AdByby、KMS等插件
 ~~全网最棒的openwrt x86固件~~  
 
-[恩山帖子链接](https://www.right.com.cn/forum/thread-5430278-1-1.html)  
+[本固件恩山帖子链接](https://www.right.com.cn/forum/thread-5430278-1-1.html)  
 
-##鸣谢
+## 鸣谢
 - [GitHub Actions](https://github.com/features/actions)
 - [OpenWrt](https://github.com/openwrt/openwrt)
 - [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)
