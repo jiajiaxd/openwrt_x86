@@ -7,7 +7,7 @@
 
 [本固件恩山帖子链接](https://www.right.com.cn/forum/thread-5430278-1-1.html)  
 
-##部分使用截图
+## 部分使用截图
 ![image](https://user-images.githubusercontent.com/51043917/163696966-ccccb4cf-d0f8-4d6e-ad01-2585f3f69eaa.png)
 ![image](https://user-images.githubusercontent.com/51043917/163696948-dc326309-c35b-4931-be34-8f4e9104ee90.png)
 ![image](https://user-images.githubusercontent.com/51043917/163696955-ddfa48f1-cd45-4c1c-8923-5fe0362e2155.png)
