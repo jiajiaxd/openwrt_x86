@@ -164,14 +164,14 @@ jobs:
       run: |
         echo "::set-output name=release_tag::$(date +"%Y.%m.%d-%H%M")"
         touch release.txt
-        echo "如果您觉得好用，请给予一个Star." >> release.txt
+        echo "如果您觉得好用，请点亮右上角的Star！" >> release.txt
         [ $UPLOAD_COWTRANSFER = true ] && echo "🔗 国内高速：[不一定可以使用][奶牛快传](${{ steps.cowtransfer.outputs.url }})" >> release.txt
         [ $UPLOAD_WETRANSFER = true ] && echo "🔗 国内高速：[WeTransfer](${{ steps.wetransfer.outputs.url }})" >> release.txt
         echo "::set-output name=status::success"
 
     - name: Upload firmware to release
       uses: softprops/action-gh-release@v1
-      if: steps.tag.outputs.status == 'success' && !cancelled() &&!contains(needs.check.outputs.status, 'failure')
+      #if: steps.tag.outputs.status == 'success' && !cancelled() &&!contains(needs.check.outputs.status, 'failure')
       env:
         GITHUB_TOKEN: ${{ secrets.token_release }}
       with:
