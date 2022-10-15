@@ -159,16 +159,15 @@ jobs:
         [ $UPLOAD_COWTRANSFER = true ] && echo "🔗 国内高速：[不一定可以使用][奶牛快传](${{ steps.cowtransfer.outputs.url }})" >> release.txt
         [ $UPLOAD_WETRANSFER = true ] && echo "🔗 国内高速：[WeTransfer](${{ steps.wetransfer.outputs.url }})" >> release.txt
         echo "status=success" >> $GITHUB_OUTPUT
-
+        
     - name: Upload firmware to release
       uses: softprops/action-gh-release@v1
       #if: steps.tag.outputs.status == 'success' && !cancelled() &&!contains(needs.check.outputs.status, 'failure')
-      env:
-        GITHUB_TOKEN: ${{ secrets.token_release }}
       with:
-        tag_name: ${{ steps.tag.outputs.release_tag }}
-        body_path: release.txt
-        files: ${{ env.FIRMWARE }}/*
+        tag: ${{ steps.tag.outputs.release_tag }}
+        token: ${{ secrets.token_release }}
+        bodyFile: release.txt
+        artifacts: ${{ env.FIRMWARE }}/*
 
 #    - name: Delete workflow runs
  #     uses: GitRML/delete-workflow-runs@main
