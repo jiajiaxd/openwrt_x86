@@ -153,7 +153,7 @@ jobs:
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
-        echo "name=release_tag::$(date +"%Y.%m.%d-%H%M")" >> $GITHUB_OUTPUT
+        echo "release_tag=$(date +"%Y.%m.%d-%H%M")" >> $GITHUB_OUTPUT
         touch release.txt
         echo "如果您觉得好用，请点亮右上角的Star！" >> release.txt
         [ $UPLOAD_COWTRANSFER = true ] && echo "🔗 国内高速：[不一定可以使用][奶牛快传](${{ steps.cowtransfer.outputs.url }})" >> release.txt
