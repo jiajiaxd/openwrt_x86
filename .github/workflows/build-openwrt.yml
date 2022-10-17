@@ -164,6 +164,7 @@ jobs:
       uses: ncipollo/release-action@v1.11.1
       #if: steps.tag.outputs.status == 'success' && !cancelled() &&!contains(needs.check.outputs.status, 'failure')
       with:
+        commit: "main"
         tag: ${{ steps.tag.outputs.release_tag }}
         token: ${{ secrets.token_release }}
         bodyFile: release.txt
