@@ -9,6 +9,9 @@
 
 [本固件恩山帖子链接](https://www.right.com.cn/forum/thread-5430278-1-1.html)  
 
+因为每个人的使用情况不同，无法定出一个合适的预定空间。若有扩容的需求，请自行扩容。  
+参考教程: https://www.openwrt.pro/post-594.html  
+
 ### 部分使用截图
 ![image](https://user-images.githubusercontent.com/51043917/163696966-ccccb4cf-d0f8-4d6e-ad01-2585f3f69eaa.png)
 ![image](https://user-images.githubusercontent.com/51043917/163696948-dc326309-c35b-4931-be34-8f4e9104ee90.png)
