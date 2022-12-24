@@ -14,10 +14,9 @@
 
 ### 部分使用截图
 ![image](https://user-images.githubusercontent.com/51043917/163696966-ccccb4cf-d0f8-4d6e-ad01-2585f3f69eaa.png)
-![image](https://user-images.githubusercontent.com/51043917/163696948-dc326309-c35b-4931-be34-8f4e9104ee90.png)
-![image](https://user-images.githubusercontent.com/51043917/163696955-ddfa48f1-cd45-4c1c-8923-5fe0362e2155.png)
-![image](https://user-images.githubusercontent.com/51043917/163696959-f5f2d216-6687-4673-9231-0fe3fcb8afa8.png)
-![image](https://user-images.githubusercontent.com/51043917/163696972-727e36de-fc0e-4a7b-bf12-61352181512d.png)
+![image](https://user-images.githubusercontent.com/51043917/209439539-eae56b07-9afb-4712-964a-c193b8244977.png)
+![image](https://user-images.githubusercontent.com/51043917/209439555-1e1b92f4-8b1b-4cad-b4a7-5b8d98b50b76.png)
+![image](https://user-images.githubusercontent.com/51043917/209439561-770bd7c8-cd82-4340-b46b-1b6582dd3a55.png)
 
 ### 鸣谢
 - [GitHub Actions](https://github.com/features/actions)
