@@ -1,8 +1,7 @@
 # OpenWrt_x86
-自编译OpenWrt x86固件 每日检查上游代码并更新 
+自编译OpenWrt x86固件 每日检查上游代码并更新  
 内置ZeroTier、PassWall、AdGuardHome、迅雷快鸟、UU加速器、FRP、解锁网易云灰色（新版）、AdByby、KMS等插件  
 本仓库活跃更新 请放心使用！  
-自用固件，稳定、流畅。  
 默认输出Hyper-V的vhdx虚拟磁盘/VMWare Workstation的vmdk虚拟磁盘/用于安装的img镜像 
 有其它需求可以自行使用StarWind V2V Converter工具转换！  
 下载地址：[GitHub Releases](https://github.com/jiajiaxd/openwrt_x86/releases)  
