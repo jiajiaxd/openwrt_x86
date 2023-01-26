@@ -4,12 +4,12 @@
 本仓库活跃更新 请放心使用！  
 自用固件，稳定、流畅。  
 默认输出Hyper-V的vhdx虚拟磁盘/VMWare Workstation的vmdk虚拟磁盘/用于安装的img镜像 
-有其它需求可以自行使用StarWind V2V Converter工具进行转  
+有其它需求可以自行使用StarWind V2V Converter工具转换！  
 下载地址：[GitHub Releases](https://github.com/jiajiaxd/openwrt_x86/releases)  
 
 [本固件恩山帖子链接](https://www.right.com.cn/forum/thread-5430278-1-1.html)  
 
-因为每个人的使用情况不同，无法定出一个合适的预定空间。若有扩容的需求，请自行扩容。  
+**因为每个人的使用情况不同，无法定出一个合适的预定空间。若有扩容的需求，请自行扩容。**  
 参考教程: https://www.openwrt.pro/post-594.html  
 
 ### 部分使用截图
