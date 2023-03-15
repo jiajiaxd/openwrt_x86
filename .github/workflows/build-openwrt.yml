@@ -36,6 +36,8 @@ jobs:
     
     - name: Maximize build space
       uses: easimon/maximize-build-space@master
+      with:
+          remove-dotnet: 'true'
         
     - name: Checkout
       uses: actions/checkout@main
