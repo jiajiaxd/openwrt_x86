@@ -33,10 +33,6 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-    
-    - name: Maximize build space
-      uses: easimon/maximize-build-space@master
-        
     - name: Checkout
       uses: actions/checkout@main
 
