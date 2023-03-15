@@ -33,14 +33,6 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-    - name: Maximize build space
-      uses: easimon/maximize-build-space@master
-      with:
-        root-reserve-mb: 4096
-        remove-dotnet: 'true'
-        remove-android: 'true'
-        remove-haskell: 'true'
-    
     - name: Checkout
       uses: actions/checkout@main
 
