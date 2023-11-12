@@ -1,3 +1,5 @@
+# 本仓库已经停止更新。作者推荐使用[ImmortalWrt](https://github.com/immortalwrt/immortalwrt)！
+
 # OpenWrt_x86
 自编译OpenWrt x86固件 每日检查上游代码并更新  
 内置ZeroTier、PassWall、AdGuardHome、迅雷快鸟、UU加速器、FRP、解锁网易云灰色（新版）、AdByby、KMS等插件  
